@@ -1,0 +1,23 @@
+div:not(.score) {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+}
+
+#player {
+    background-color: red;
+}
+
+#food {
+    background-color: green;
+}
+
+.score {
+    font-weight: bold;
+    margin: auto;
+    font-size: 25px;
+    font-family: cursive;
+    background-color: orange;
+    width: fit-content;
+    padding: 5px 10px;
+}
